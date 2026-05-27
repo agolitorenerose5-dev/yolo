@@ -15,7 +15,7 @@ st.set_page_config(
 @st.cache_resource
 def load_model():
     # Update this path if your 'best.pt' file moves
-    model_path = r"C:\Users\AGOLITO\Downloads\yolo\runs\detect\train-4\weights\best.pt"
+    model_path = r"best.pt"
     return YOLO(model_path)
 
 try:
